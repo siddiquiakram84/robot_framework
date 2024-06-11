@@ -1,0 +1,99 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+logs/
+*.log
+
+# Test results
+results/
+reports/
+
+# Docker
+*.dockerfile
+docker-compose.yml
+docker-compose.override.yml
+.env
+.env.*
+
+# Environment settings
+.env
+.venv
+venv/
+ENV/
+
+# Robot Framework
+output.xml
+log.html
+report.html
+
+# Virtual Environment
+.env/
+venv/
+ENV/
+env.bak/
+env/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# CI/CD
+buildspec.yml
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+*.bak
+*.swp
+*.swo
+*.tmp
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Intellij
+.idea/
+
+# VSCode
+.vscode/
+
+# Sublime
+*.sublime-workspace
+
+# Custom libraries and resources
+lib/
+resources/keywords/
+resources/libraries/
+resources/variables/
