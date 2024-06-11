@@ -1,8 +1,7 @@
 #!/bin/bash
 
-SLACK_WEBHOOK_URL="https://hooks.slack.com/"
-REPORT_FILE="/app/results/report.html"
-API_HEALTH_URL="http://localhost:5000/health"
+# Source the .env file to load environment variables
+source .env
 
 # Check if the tests passed or failed
 if grep -q 'FAIL' /app/results/output.xml; then
