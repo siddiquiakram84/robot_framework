@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SLACK_WEBHOOK_URL="https://hooks.slack.com/services/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"
+SLACK_WEBHOOK_URL="https://hooks.slack.com/"
 REPORT_FILE="/app/results/report.html"
 API_HEALTH_URL="http://localhost:5000/health"
 
